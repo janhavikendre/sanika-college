@@ -26,8 +26,8 @@ export default function Header() {
         <div className="flex items-center justify-between py-6">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <div className="relative h-14 w-14 mr-4 bg-gradient-to-br from-rose-500 to-pink-600 rounded-xl p-2 shadow-lg">
-                <Image src="/logo.svg" alt="Sanika College Logo" fill className="object-contain filter brightness-0 invert" />
+              <div className="relative h-14 w-14 mr-4 rounded-xl p-2 ">
+                <Image src="/logo.svg" alt="Sanika College Logo" fill className="object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Sanika College Of B.Design</span>
