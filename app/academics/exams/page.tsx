@@ -52,7 +52,7 @@ export default async function ExamsPage() {
               ) : (
                 <>
                   <p className="text-gray-700 mb-4">
-                    The National Institute of Fashion Designing conducts examinations to evaluate students'
+                    Sanika College Of B.Design conducts examinations to evaluate students'
                     understanding and application of concepts taught during the academic term. These examinations are
                     designed to assess theoretical knowledge as well as practical skills.
                   </p>
@@ -136,9 +136,9 @@ export default async function ExamsPage() {
                   For any queries regarding examination schedules, please contact the Examination Cell:
                 </p>
                 <p className="text-gray-700 mt-2">
-                  <span className="font-medium">Email:</span> exam@nifd.edu
+                  <span className="font-medium">Email:</span> Sanikacpllege493@gmail.com
                   <br />
-                  <span className="font-medium">Phone:</span> +91 9974469124
+                  <span className="font-medium">Phone:</span> +91 7888155999
                 </p>
               </div>
             </CardContent>

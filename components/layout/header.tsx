@@ -21,33 +21,33 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-6">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <div className="relative h-12 w-12 mr-3">
-                <Image src="/logo.svg" alt="NIFD Logo" fill className="object-contain" />
+              <div className="relative h-14 w-14 mr-4 bg-gradient-to-br from-rose-500 to-pink-600 rounded-xl p-2 shadow-lg">
+                <Image src="/logo.svg" alt="Sanika College Logo" fill className="object-contain filter brightness-0 invert" />
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-gray-900">National Institute of Fashion Designing</span>
-                <span className="text-xs text-gray-600">Affiliated to S.N.D.T.W University, Mumbai</span>
+                <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Sanika College Of B.Design</span>
+                <span className="text-sm text-gray-500 font-medium">Premier B.Design College in Sambhaji Nagar</span>
               </div>
             </Link>
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden md:flex space-x-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-gray-700 hover:text-rose-600 transition-colors"
+                className="text-sm font-semibold text-gray-700 hover:text-rose-600 transition-all duration-300 hover:scale-105 relative group"
               >
                 {item.name}
               </Link>
             ))}
-            <Button asChild variant="outline" className="border-rose-500 text-rose-500 hover:bg-rose-50">
+            <Button asChild className="bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <Link href="/academics/admission">Apply Now</Link>
             </Button>
           </nav>

@@ -59,22 +59,22 @@ export default function Announcements({ announcements }: AnnouncementsProps) {
   }
 
   return (
-    <div className="bg-rose-600 text-white py-3 overflow-hidden">
-      <div className="container mx-auto px-4 flex items-center">
-        <div className="flex-shrink-0 flex items-center mr-4">
-          <Megaphone className="h-5 w-5 mr-2" />
-          <span className="font-medium">Announcements:</span>
+    <div className="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-700 text-white py-4 overflow-hidden relative">
+      <div className="container mx-auto px-4 flex items-center relative z-10">
+        <div className="flex-shrink-0 flex items-center mr-6 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+          <Megaphone className="h-5 w-5 mr-2 animate-pulse" />
+          <span className="font-bold text-sm uppercase tracking-wide">Latest News</span>
         </div>
         <div className="overflow-hidden relative flex-1">
           <div ref={scrollRef} className="flex whitespace-nowrap" style={{ willChange: "transform" }}>
-            {activeAnnouncements.map((announcement) => (
-              <div key={announcement._id} className="inline-block px-4 whitespace-nowrap">
+            {activeAnnouncements.map((announcement, index) => (
+              <div key={announcement._id} className="inline-block px-6 whitespace-nowrap">
                 {announcement.link ? (
-                  <a href={announcement.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  <a href={announcement.link} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-yellow-200 transition-colors duration-300 font-medium">
                     {announcement.text}
                   </a>
                 ) : (
-                  <span>{announcement.text}</span>
+                  <span className="font-medium">{announcement.text}</span>
                 )}
               </div>
             ))}

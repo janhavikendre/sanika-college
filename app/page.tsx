@@ -2,6 +2,9 @@ import HeroBanner from "@/components/home/hero-banner"
 import Announcements from "@/components/home/announcements"
 import InstituteHighlights from "@/components/home/institute-highlights"
 import WhyChooseUs from "@/components/home/why-choose-us"
+import Statistics from "@/components/home/statistics"
+import Features from "@/components/home/features"
+import Testimonials from "@/components/home/testimonials"
 import CallToAction from "@/components/home/call-to-action"
 import { headers } from "next/headers"
 
@@ -20,11 +23,14 @@ export default async function Home() {
   }
 
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col">
       <Announcements announcements={announcements} />
       <HeroBanner />
+      <Statistics />
       <InstituteHighlights />
+      <Features />
       <WhyChooseUs />
+      <Testimonials />
       <CallToAction />
     </div>
   )

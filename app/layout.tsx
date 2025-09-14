@@ -12,9 +12,9 @@ import PageLayout from "@/components/layout/page-layout"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "National Institute of Fashion Designing, Kasar Sirsi",
-  description: "Affiliated to S.N.D.T.W University, Mumbai",
-  keywords: "fashion design, institute, education, design courses, SNDTW University",
+  title: "Sanika College Of B.Design, Mitmita Chhan",
+  description: "Premier B.Design College in Sambhaji Nagar",
+  keywords: "B.Design, college, education, design courses, Sambhaji Nagar",
     generator: 'v0.dev'
 }
 

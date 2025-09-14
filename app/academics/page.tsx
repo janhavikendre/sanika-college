@@ -172,14 +172,14 @@ export default function AcademicsPage() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Our Faculty</h3>
                   <p className="text-gray-600 mb-4">
-                    The National Institute of Fashion Designing boasts a team of highly qualified and experienced
+                    Sanika College Of B.Design boasts a team of highly qualified and experienced
                     faculty members who are experts in their respective fields. Our faculty includes industry
                     professionals, designers, and academics who bring a wealth of knowledge and practical experience to
                     the classroom.
                   </p>
                   <p className="text-gray-600 mb-4">
                     Our teaching staff is dedicated to providing students with the best education and mentorship to help
-                    them succeed in the competitive fashion industry. They are committed to staying updated with the
+                    them succeed in the competitive design industry. They are committed to staying updated with the
                     latest trends, technologies, and teaching methodologies.
                   </p>
                   <Button asChild className="bg-rose-600 hover:bg-rose-700">

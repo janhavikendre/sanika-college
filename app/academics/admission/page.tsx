@@ -199,8 +199,8 @@ export default async function AdmissionPage() {
 
             <div className="mt-6 pt-4 border-t">
               <h3 className="font-semibold mb-2">Contact for Admission</h3>
-              <p className="text-gray-700 mb-1">Phone: +91 9974469124, +91 8411888688</p>
-              <p className="text-gray-700">Email: 523nationalinstitute@gmail.com</p>
+              <p className="text-gray-700 mb-1">Phone: +91 7888155999</p>
+              <p className="text-gray-700">Email: Sanikacpllege493@gmail.com</p>
             </div>
           </CardContent>
         </Card>
@@ -338,7 +338,7 @@ export default async function AdmissionPage() {
                 dangerouslySetInnerHTML={{
                   __html:
                     content.scholarship ||
-                    "The National Institute of Fashion Designing offers various scholarships to meritorious students and those from economically weaker sections. These scholarships are designed to support talented students in pursuing their education without financial constraints.",
+                    "Sanika College Of B.Design offers various scholarships to meritorious students and those from economically weaker sections. These scholarships are designed to support talented students in pursuing their education without financial constraints.",
                 }}
               />
 

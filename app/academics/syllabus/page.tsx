@@ -27,13 +27,13 @@ export default async function SyllabusPage() {
         <div>
           <h2 className="text-2xl font-bold mb-4 text-rose-800">Program Syllabus</h2>
           <p className="text-gray-700 mb-6">
-            Find detailed syllabus for all programs offered at the National Institute of Fashion Designing. These
+            Find detailed syllabus for all programs offered at Sanika College Of B.Design. These
             documents outline the course structure, subjects, credit distribution, and learning outcomes for each
             program.
           </p>
           <p className="text-gray-700">
             The syllabus is designed in consultation with industry experts and academic professionals to ensure that our
-            curriculum remains current and aligned with industry requirements and best practices in fashion education.
+            curriculum remains current and aligned with industry requirements and best practices in design education.
           </p>
         </div>
 
@@ -80,10 +80,10 @@ export default async function SyllabusPage() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <div>
-            <span className="font-medium">Email:</span> academic@nifd.edu
+            <span className="font-medium">Email:</span> Sanikacpllege493@gmail.com
           </div>
           <div>
-            <span className="font-medium">Phone:</span> +91 9974469124
+            <span className="font-medium">Phone:</span> +91 7888155999
           </div>
         </div>
       </div>

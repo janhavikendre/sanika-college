@@ -107,9 +107,9 @@ export default async function AcademicCalendarPage() {
               For any queries regarding the academic calendar, please contact the Academic Office:
             </p>
             <p className="text-gray-700">
-              <span className="font-medium">Email:</span> academic@nifd.edu
+              <span className="font-medium">Email:</span> Sanikacpllege493@gmail.com
               <br />
-              <span className="font-medium">Phone:</span> +91 9974469124
+              <span className="font-medium">Phone:</span> +91 7888155999
             </p>
           </CardContent>
         </Card>

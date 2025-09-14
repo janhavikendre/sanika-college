@@ -9,6 +9,8 @@ import { ChevronDown } from "lucide-react"
 
 interface AboutTabsProps {
   about: {
+    vision: string
+    mission: any
     institute: string
     society: string
   }
@@ -26,7 +28,7 @@ export function AboutTabs({ about, directors, leadership }: AboutTabsProps) {
           <div className="grid md:grid-cols-2 gap-8 items-center">
            
             <div>
-              <h2 className="text-2xl font-bold mb-4 text-rose-800">National Institute of Fashion Designing</h2>
+              <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-rose-800 to-pink-600 bg-clip-text text-transparent">Sanika College Of B.Design</h2>
               <div
                 className="prose max-w-none"
                 dangerouslySetInnerHTML={{ __html: about.institute || "Content coming soon..." }}
@@ -38,7 +40,7 @@ export function AboutTabs({ about, directors, leadership }: AboutTabsProps) {
         return (
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 className="text-2xl font-bold mb-4 text-rose-800">About Our Society</h2>
+              <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-rose-800 to-pink-600 bg-clip-text text-transparent">About Our Society</h2>
               <div
                 className="prose max-w-none"
                 dangerouslySetInnerHTML={{ __html: about.society || "Content coming soon..." }}
@@ -50,18 +52,18 @@ export function AboutTabs({ about, directors, leadership }: AboutTabsProps) {
       case "vision":
         return (
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow border-rose-100">
+            <Card className="overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-rose-50/30">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-bold mb-4 text-rose-800">Our Vision</h3>
+                <h3 className="text-2xl font-bold mb-6 text-rose-800">Our Vision</h3>
                 <p className="text-gray-700">
                   {about.vision ||
                     "To be a premier institute for fashion design education, fostering creativity, innovation, and excellence in the fashion industry."}
                 </p>
               </CardContent>
             </Card>
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow border-rose-100">
+            <Card className="overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-rose-50/30">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-bold mb-4 text-rose-800">Our Mission</h3>
+                <h3 className="text-2xl font-bold mb-6 text-rose-800">Our Mission</h3>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700">
                   {about.mission ? (
                     <div dangerouslySetInnerHTML={{ __html: about.mission }} />
@@ -121,7 +123,7 @@ export function AboutTabs({ about, directors, leadership }: AboutTabsProps) {
       <div className="flex justify-center">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="border-rose-200 bg-rose-50 hover:bg-rose-100">
+            <Button variant="outline" className="border-rose-300 bg-gradient-to-r from-rose-50 to-pink-50 hover:from-rose-100 hover:to-pink-100 shadow-lg hover:shadow-xl transition-all duration-300">
               {activeTab === "institute" && "About Institute"}
               {activeTab === "society" && "About Society"}
               {activeTab === "vision" && "Vision & Mission"}

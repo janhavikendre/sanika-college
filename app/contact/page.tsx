@@ -7,41 +7,38 @@ import { Mail, Phone, Clock, MapPin } from "lucide-react"
 
 export default function ContactPage() {
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-center mb-12">Contact Us</h1>
+    <div className="container mx-auto px-4 py-16">
+      <h1 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-gray-900 to-rose-600 bg-clip-text text-transparent">Contact Us</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-        <Card className="hover:shadow-md transition-shadow">
-          <CardContent className="p-6 flex flex-col items-center text-center">
-            <div className="bg-rose-100 p-3 rounded-full mb-4">
-              <Mail className="h-6 w-6 text-rose-600" />
+        <Card className="hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-rose-50/30">
+          <CardContent className="p-8 flex flex-col items-center text-center">
+            <div className="bg-gradient-to-br from-rose-100 to-pink-100 p-4 rounded-2xl mb-6 shadow-lg">
+              <Mail className="h-8 w-8 text-rose-600" />
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
-            <a href="mailto:523nationalinstitute@gmail.com" className="text-rose-600 hover:underline">
-              523nationalinstitute@gmail.com
+            <a href="mailto:Sanikacpllege493@gmail.com" className="text-rose-600 hover:underline">
+              Sanikacpllege493@gmail.com
             </a>
           </CardContent>
         </Card>
 
-        <Card className="hover:shadow-md transition-shadow">
-          <CardContent className="p-6 flex flex-col items-center text-center">
-            <div className="bg-rose-100 p-3 rounded-full mb-4">
-              <Phone className="h-6 w-6 text-rose-600" />
+        <Card className="hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-rose-50/30">
+          <CardContent className="p-8 flex flex-col items-center text-center">
+            <div className="bg-gradient-to-br from-rose-100 to-pink-100 p-4 rounded-2xl mb-6 shadow-lg">
+              <Phone className="h-8 w-8 text-rose-600" />
             </div>
             <h3 className="font-semibold mb-2">Phone</h3>
-            <a href="tel:+919974469124" className="text-rose-600 hover:underline">
-              +91 9974469124
-            </a>
-            <a href="tel:+918411888688" className="text-rose-600 hover:underline mt-1">
-              +91 8411888688
+            <a href="tel:+917888155999" className="text-rose-600 hover:underline">
+              +91 7888155999
             </a>
           </CardContent>
         </Card>
 
-        <Card className="hover:shadow-md transition-shadow">
-          <CardContent className="p-6 flex flex-col items-center text-center">
-            <div className="bg-rose-100 p-3 rounded-full mb-4">
-              <Clock className="h-6 w-6 text-rose-600" />
+        <Card className="hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-0 bg-gradient-to-br from-white to-rose-50/30">
+          <CardContent className="p-8 flex flex-col items-center text-center">
+            <div className="bg-gradient-to-br from-rose-100 to-pink-100 p-4 rounded-2xl mb-6 shadow-lg">
+              <Clock className="h-8 w-8 text-rose-600" />
             </div>
             <h3 className="font-semibold mb-2">Working Hours</h3>
             <p className="text-gray-700">Monday - Saturday</p>
@@ -95,7 +92,7 @@ export default function ContactPage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="National Institute of Fashion Designing, Kasar Sirsi"
+                title="Sanika College Of B.Design, Mitmita Chhan"
               ></iframe>
             </div>
           </CardContent>
@@ -109,11 +106,11 @@ export default function ContactPage() {
             <div>
               <h3 className="font-semibold mb-2">Our Address</h3>
               <p className="text-gray-700">
-                National Institute of Fashion Designing,
+                Sanika College Of B.Design,
                 <br />
-                Kasar Sirsi,
+                Mitmita Chhan, Sambhaji Nagar,
                 <br />
-                Affiliated to S.N.D.T.W University, Mumbai
+                pincode: 431001
               </p>
             </div>
           </div>

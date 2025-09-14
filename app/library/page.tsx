@@ -49,9 +49,9 @@ export default async function LibraryPage() {
             ) : (
               <>
                 <p>
-                  The National Institute of Fashion Designing library is a comprehensive resource center for fashion
-                  design students and faculty. Our library houses an extensive collection of books, journals, magazines,
-                  digital resources, and archives related to fashion design, textile science, fashion history, and
+                  The Sanika College Of B.Design library is a comprehensive resource center for design
+                  students and faculty. Our library houses an extensive collection of books, journals, magazines,
+                  digital resources, and archives related to design, textile science, design history, and
                   industry practices.
                 </p>
                 <p>
