@@ -136,7 +136,7 @@ export default async function ExamsPage() {
                   For any queries regarding examination schedules, please contact the Examination Cell:
                 </p>
                 <p className="text-gray-700 mt-2">
-                  <span className="font-medium">Email:</span> Sanikacpllege493@gmail.com
+                  <span className="font-medium">Email:</span> Sanikacollege493@gmail.com
                   <br />
                   <span className="font-medium">Phone:</span> +91 7888155999
                 </p>

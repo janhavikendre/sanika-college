@@ -107,7 +107,7 @@ export default async function AcademicCalendarPage() {
               For any queries regarding the academic calendar, please contact the Academic Office:
             </p>
             <p className="text-gray-700">
-              <span className="font-medium">Email:</span> Sanikacpllege493@gmail.com
+              <span className="font-medium">Email:</span> Sanikacollege493@gmail.com
               <br />
               <span className="font-medium">Phone:</span> +91 7888155999
             </p>

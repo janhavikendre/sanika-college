@@ -200,7 +200,7 @@ export default async function AdmissionPage() {
             <div className="mt-6 pt-4 border-t">
               <h3 className="font-semibold mb-2">Contact for Admission</h3>
               <p className="text-gray-700 mb-1">Phone: +91 7888155999</p>
-              <p className="text-gray-700">Email: Sanikacpllege493@gmail.com</p>
+              <p className="text-gray-700">Email: Sanikacollege493@gmail.com</p>
             </div>
           </CardContent>
         </Card>

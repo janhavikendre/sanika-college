@@ -17,8 +17,8 @@ export default function ContactPage() {
               <Mail className="h-8 w-8 text-rose-600" />
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
-            <a href="mailto:Sanikacpllege493@gmail.com" className="text-rose-600 hover:underline">
-              Sanikacpllege493@gmail.com
+            <a href="mailto:Sanikacollege493@gmail.com" className="text-rose-600 hover:underline">
+              Sanikacollege493@gmail.com
             </a>
           </CardContent>
         </Card>

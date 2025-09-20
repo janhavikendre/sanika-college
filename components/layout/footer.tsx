@@ -92,15 +92,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-rose-400 mr-2 mt-0.5" />
-                <span className="text-gray-300">Sanika College Of B.Design, Mitmita Chhan, Sambhaji Nagar, pincode: 431001</span>
+                <span className="text-gray-300">Sanika College Of B.Design, MitMita Chh. Sambhaji Nagar, pincode: 431001</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-rose-400 mr-2" />
                 <a
-                  href="mailto:Sanikacpllege493@gmail.com"
+                  href="mailto:Sanikacollege493@gmail.com"
                   className="text-gray-300 hover:text-rose-400 transition-all duration-300 hover:translate-x-1"
                 >
-                  Sanikacpllege493@gmail.com
+                  Sanikacollege493@gmail.com
                 </a>
               </li>
               <li className="flex items-center">

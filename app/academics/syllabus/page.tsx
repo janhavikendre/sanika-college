@@ -80,7 +80,7 @@ export default async function SyllabusPage() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <div>
-            <span className="font-medium">Email:</span> Sanikacpllege493@gmail.com
+            <span className="font-medium">Email:</span> Sanikacollege493@gmail.com
           </div>
           <div>
             <span className="font-medium">Phone:</span> +91 7888155999

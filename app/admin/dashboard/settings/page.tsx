@@ -15,7 +15,7 @@ export default function SettingsPage() {
   const [adminPassword, setAdminPassword] = useState("")
   const [newPassword, setNewPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
-  const [contactEmail, setContactEmail] = useState("Sanikacpllege493@gmail.com")
+  const [contactEmail, setContactEmail] = useState("Sanikacollege493@gmail.com")
   const [contactPhone1, setContactPhone1] = useState("7888155999")
   const [contactPhone2, setContactPhone2] = useState("7888155999")
   const [workingHours, setWorkingHours] = useState("Mon-Sat: 9:00 AM - 5:00 PM")
